@@ -3,8 +3,8 @@ import React from 'react';
 const Total = (props) => {
     
     let sum = 0;
-    for (const count of props.counts) {
-        sum = sum + count;
+    for (const part of props.parts) {
+        sum = sum + part.exercises;
     }
 
     return (
